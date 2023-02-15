@@ -1,0 +1,54 @@
+html,
+body {
+   font-family: 'Gotham Book', sans-serif;
+   color: #323232;
+   background-color: white;
+}
+
+body {
+   max-width: 580px;
+   margin: auto;
+}
+
+.container {
+   width: 100%;
+   max-width: 100%;
+   padding-left: 1.25rem;
+   padding-right: 1.25rem;
+}
+
+/* custom navs color */
+.nav .nav-link,
+.nav .nav-link:hover {
+   color: #878787;
+}
+
+.nav .nav-link.active,
+.nav .nav-link.active:hover {
+   color: white;
+   background-color: #fd4f00;
+}
+
+/* custom color */
+.text-primary {
+   color: #fd4f00 !important;
+}
+
+/* custom btn-primary */
+.btn-primary {
+   background-color: #fd4f00 !important;
+   border-color: #fd4f00 !important;
+   color: white !important;
+}
+
+.btn-primary:hover,
+.btn-primary.active {
+   background-color: #ff3300 !important;
+   border-color: #ff3300 !important;
+   color: white !important;
+}
+
+/* menu quantity */
+.menu-qty i {
+   cursor: pointer;
+}

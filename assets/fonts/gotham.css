@@ -1,0 +1,39 @@
+@font-face {
+   font-family: 'Gotham Book';
+   src: url(../fonts/gotham-book-webfont.woff);
+   font-weight: normal;
+   font-style: normal;
+}
+
+.fw-normal {
+   font-family: 'Gotham Book';
+   font-weight: normal;
+}
+
+
+
+@font-face {
+   font-family: 'Gotham Bold';
+   src: url(../fonts/gotham-bold-webfont.woff);
+   font-weight: bold;
+   font-style: normal;
+}
+
+.fw-bold {
+   font-family: 'Gotham Bold';
+   font-weight: bold;
+}
+
+
+
+@font-face {
+   font-family: 'Gotham Thin';
+   src: url(../fonts/gotham-thin-webfont.woff);
+   font-weight: 100;
+   font-style: normal;
+}
+
+.fw-thin {
+   font-family: 'Gotham Thin';
+   font-weight: 100;
+}

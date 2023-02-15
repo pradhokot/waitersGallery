@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <!-- add head components -->
+   <script src="head.js"></script>
+   <title>SUPRESSO &bull; Your Order</title>
+   <style>
+      * {
+         /* outline: solid 1px green; */
+      }
+
+      html,
+      body {
+         height: 100%;
+      }
+
+      body {
+         position: relative;
+         display: flex;
+         flex-direction: column;
+      }
+
+      header,
+      footer {
+         flex-shrink: 0;
+      }
+
+      main.wrapper {
+         position: relative;
+         -ms-flex: 1 1 auto;
+         flex: 1 1 auto;
+         overflow-y: auto;
+      }
+   </style>
+</head>
+
+<body>
+
+   <!-- header menu -->
+   <header>
+      <div class="container pt-3 pt-md-5">
+         <div class="d-flex align-items-center justify-content-end"
+            style="font-size: 1.5rem; height: calc(68px - 2rem);">
+            <div style="font-size: .75em;"><strong>Table 2</strong></div>
+         </div>
+      </div>
+      <div class="container">
+         <form action="">
+            <div class="form-group mb-0" style="margin-left: -.25rem;">
+               <select class="form-control font-weight-bold w-auto rounded-0 border-0 pl-0 pt-0" id="selectMenu1"
+                  style="font-size: 1.5rem; line-height: 1;">
+                  <option value="1" selected>Dine In</option>
+                  <option value="2">Take Away</option>
+               </select>
+            </div>
+         </form>
+      </div>
+   </header>
+   <style>
+      #selectMenu1 option {
+         font-size: .875rem;
+      }
+   </style>
+
+   <main class="wrapper">
+      <div class="container">
+         <ul class="list-group list-group-flush tray-list" style="line-height: normal;">
+
+            <!-- tray item -->
+            <li class="list-group-item px-0 tray-item">
+               <div class="row align-items-center g-3 g-md-4">
+                  <div class="col small small-md-inherit">
+                     <strong>Supresso Bacoon Sandwiches Ikan Tuna</strong>
+                  </div>
+                  <div class="col-auto">
+                     <div class="menu-qty d-flex align-items-center justify-content-between font-weight-bold">
+                        <i class="bi bi-dash-circle"></i>
+                        <span class="mx-2 text-center input-qty">1</span>
+                        <i class="bi bi-plus-circle"></i>
+                     </div>
+                  </div>
+                  <div class="col-auto">
+                     <span class="d-block text-right input-prize">50 K</span>
+                  </div>
+               </div>
+            </li>
+            <!-- tray item -->
+            <li class="list-group-item px-0 tray-item">
+               <div class="row align-items-center g-3 g-md-4">
+                  <div class="col small small-md-inherit">
+                     <strong>Supresso Bacoon Sandwiches Ikan Tuna</strong>
+                  </div>
+                  <div class="col-auto">
+                     <div class="menu-qty d-flex align-items-center justify-content-between font-weight-bold">
+                        <i class="bi bi-dash-circle"></i>
+                        <span class="mx-2 text-center input-qty">1</span>
+                        <i class="bi bi-plus-circle"></i>
+                     </div>
+                  </div>
+                  <div class="col-auto">
+                     <span class="d-block text-right input-prize">50 K</span>
+                  </div>
+               </div>
+            </li>
+            <!-- tray item -->
+            <li class="list-group-item px-0 tray-item">
+               <div class="row align-items-center g-3 g-md-4">
+                  <div class="col small small-md-inherit">
+                     <strong>Supresso Bacoon Sandwiches Ikan Tuna</strong>
+                  </div>
+                  <div class="col-auto">
+                     <div class="menu-qty d-flex align-items-center justify-content-between font-weight-bold">
+                        <i class="bi bi-dash-circle"></i>
+                        <span class="mx-2 text-center input-qty">1</span>
+                        <i class="bi bi-plus-circle"></i>
+                     </div>
+                  </div>
+                  <div class="col-auto">
+                     <span class="d-block text-right input-prize">50 K</span>
+                  </div>
+               </div>
+            </li>
+            <!-- tray item -->
+            <li class="list-group-item px-0 tray-item">
+               <div class="row align-items-center g-3 g-md-4">
+                  <div class="col small small-md-inherit">
+                     <strong>Supresso Bacoon Sandwiches Ikan Tuna</strong>
+                  </div>
+                  <div class="col-auto">
+                     <div class="menu-qty d-flex align-items-center justify-content-between font-weight-bold">
+                        <i class="bi bi-dash-circle"></i>
+                        <span class="mx-2 text-center input-qty">1</span>
+                        <i class="bi bi-plus-circle"></i>
+                     </div>
+                  </div>
+                  <div class="col-auto">
+                     <span class="d-block text-right input-prize">50 K</span>
+                  </div>
+               </div>
+            </li>
+
+         </ul>
+      </div>
+   </main>
+   <style>
+      .tray-item .input-qty {
+         min-width: 30px;
+      }
+
+      .tray-item .input-prize {
+         min-width: 50px;
+      }
+   </style>
+
+   <footer>
+      <div class="container pt-0 mb-4">
+         <hr class="border-secondary mt-1 mb-2">
+         <h5 class="text-right"><strong>Subtotal &nbsp;&nbsp;&nbsp;&nbsp; 350 K</strong></h5>
+      </div>
+      <div class="container py-3 pb-md-5">
+         <a href="order.html" class="btn btn-lg btn-primary btn-block"><strong>Order</strong></a>
+         <a href="index.html" class="btn btn-block">
+            <i class="bi bi-chevron-left"></i> Back to menu
+         </a>
+      </div>
+   </footer>
+
+   <!-- add footer components -->
+   <script src="footer.js"></script>
+
+</body>
+
+</html>
